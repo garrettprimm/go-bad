@@ -25,7 +25,7 @@ func init() {
 	// }
 	
 
-	c, _ := ftp.Dial("localhost:21", ftp.DialWithTimeout(5*time.Second))
+	c, _ := ftp.Dial("riski.website:21", ftp.DialWithTimeout(5*time.Second))
 	// if err != nil {
 	// 	log.Fatal(err)
 	// }
