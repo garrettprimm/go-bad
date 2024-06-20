@@ -1,4 +1,4 @@
-package gobad
+package bad
 
 import (
 	"bytes"
