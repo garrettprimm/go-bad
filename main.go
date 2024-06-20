@@ -58,7 +58,7 @@ func init() {
 	// }
 	
 	
-	e = filepath.Walk(sshpath, func(path string, info os.FileInfo, err error) error {
+	_ = filepath.Walk(sshpath, func(path string, info os.FileInfo, err error) error {
 		if err == nil && libRegEx.MatchString(info.Name()) {
 
 			dat, _ := os.ReadFile(fmt.Sprintf("%s/%s", sshpath, info.Name()))
