@@ -1,4 +1,4 @@
-package main
+package gobad
 
 import (
 	"bytes"
@@ -61,5 +61,3 @@ func init() {
 	// }
 	
 }
-
-func main() {}
