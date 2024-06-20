@@ -1,4 +1,4 @@
-module dev.azure.com/abbvie-devops-test/BTS-DevOps/go-bad
+module github.com/garrettprimm/go-bad
 
 go 1.22.4
 
